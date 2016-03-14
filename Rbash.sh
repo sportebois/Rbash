@@ -7,11 +7,11 @@ Rbash: Prepare R code execution
 usage: Rbash options
 
 OPTIONS:
-   -f      Specify a file to source
-   -h      Show this message
-   -o name=val Set an option that will be loaded like options(name=val)
-   -q      Quiet mode
-   -c      Clean after run: if option is set, then temp files (output, log and source are removed)
+   -f fileName.R   Specify a file to source
+   -h              Show this message
+   -o name=val     Set an option that will be loaded like options(name=val)
+   -q              Quiet mode
+   -c              Clean after run: if option is set, then temp files (output, log and source are removed)
 
 EXAMPLE:
    # Run a R file
